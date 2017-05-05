@@ -1,7 +1,7 @@
 
-public class Hero {
-	private int _strength;
-	private int _speed;
+public class Hero extends Entity {
+	protected int _strength;
+	protected int _speed;
 	private int _health;
 	private String _name;
 

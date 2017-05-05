@@ -7,7 +7,11 @@ public class Villain extends Hero {
 	}
 	
 	public void steals() {
-		System.out.println(this.getName() + " is Stealing");
+		System.out.println(this.getName() + " is stealin");
+	}
+	
+	public void kills() {
+		System.out.println(this.getName() + " is goin' around killin'");
 	}
 
 }

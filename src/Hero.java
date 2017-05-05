@@ -5,6 +5,9 @@ public class Hero {
 	private int _health;
 	private String _name;
 
+	public String getName() {
+		return this._name;
+	}
 	
 	public int getStrength() {
 		return this._strength;
@@ -24,11 +27,11 @@ public class Hero {
 	}
 	
 	public void showAbilities() {
-		System.out.print("+++++++++++++++++++++++++++++++++");
-		System.out.print("Strength: " + this._strength);
-		System.out.print("Speed: " + this._speed);
-		System.out.print("Health: " + this._health);
-		System.out.print("+++++++++++++++++++++++++++++++++");
+		System.out.println("+++++++++++++++++++++++++++++++++");
+		System.out.println("Strength: " + this._strength);
+		System.out.println("Speed: " + this._speed);
+		System.out.println("Health: " + this._health);
+		System.out.println("+++++++++++++++++++++++++++++++++");
 	}
 	
 	private void generateAbilities() {
@@ -38,10 +41,10 @@ public class Hero {
 	}
 	
 	public void fight() {
-		System.out.print(this._name + " is Fighting!");
+		System.out.println(this._name + " is Fighting!");
 	}
 
 	public void run() {
-		System.out.print(this._name + " is Running!");
+		System.out.println(this._name + " is Running!");
 	}
 }

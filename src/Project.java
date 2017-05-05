@@ -7,6 +7,10 @@ public class Project {
 		hero.run();
 		hero.showAbilities();
 
+		Villain villain = new Villain("Sly Man");
+		villain.run();
+		villain.steals();
+		villain.showAbilities();
 	}
 
 }
